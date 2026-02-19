@@ -4,7 +4,7 @@ This Booking App was created as the final capstone project of the **Meta Front-E
 
 **Preview**: Little Lemon is a family-owned Mediterranean restaurant that blends traditional recipes with a modern twist. Our goal is to provide our customers with a unique dining experience that will take them on a culinary journey through the Mediterranean.
 
-**Instructions Received**: To create a modern responsive Front-end for the Little Lemon app with a Bookings feature which they lack at present.
+**Instructions Received**: To create a modern responsive Front-end for the Little Lemon app with a Bookings feature which they lack in the present.
 
 ---
 
