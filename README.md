@@ -1,4 +1,4 @@
-# The Booking App
+# Little Lemon Booking App
 
 This Booking App was created as the final capstone project of the **Meta Front-End Developer Certification**.
 
