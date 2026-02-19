@@ -26,5 +26,5 @@ npm test
 # Run Tests with Coverage
 npm test:cv
 ```
-
-**Note**: 
+---
+**Note**: This project is a demo project with unfinished features, the main goal was to make a booking app. I will release another version sometime soon with a better UI UX.
