@@ -1,0 +1,80 @@
+.LL-BookingPageNavigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: var(--color-white);
+  background-color: var(--color-primary);
+}
+
+.LL-BookingPageNavigation h1 {
+  width: 100%;
+}
+
+.LL-BookingPageNavigation button.btn-unstyled {
+  color: var(--color-white);
+}
+
+.LL-BookingPageContainer {
+  width: 100%;
+  padding: 2.25rem;
+  position: relative;
+}
+
+.LL-BookingPageContainer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  bottom: 0;
+  background-image: url('../../assets/lemon-logo-images-illustration-vector.jpg');
+  background-size: 150px 150px;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.2;
+}
+
+#LL-BookingPageHero {
+  display: none;
+  flex-basis: 50%;
+  box-shadow: var(--box-shadow-2);
+}
+
+#LL-BookingPageHero img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.LL-BookingPageLemonTile {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height: 40%;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 0;
+  background-size: 150px 150px;
+  background-repeat: repeat;
+  opacity: 0.2;
+}
+
+/** For larger screens */
+@media only screen and (min-width: 960px) {
+  .LL-BookingPageContainer {
+    display: flex;
+    gap: 2.25rem;
+  }
+  
+  .LL-BookingPageContainer > * {
+    position: relative;
+    z-index: 1;
+  }
+  
+  #LL-BookingPageHero {
+    display: block;
+  }
+}

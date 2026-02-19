@@ -1,0 +1,39 @@
+.LL-Testimonials {
+  display: flex;
+  flex-direction: column;
+  gap: 2.25rem;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 20%), url('../../../../assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 4.5rem 2.25rem;
+  padding-bottom: 8rem;
+  position: relative;
+  margin-bottom: -4rem;
+  z-index: 1;
+}
+
+.LL-Testimonials-Carousel {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+}
+
+.LL-Testimonials-Carousel .LL-Card {
+  flex-basis: 25%;
+}
+
+.LL-Testimonial-Review {
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .LL-Testimonials-Carousel {
+    flex-wrap: wrap;
+  }
+  .LL-Testimonials-Carousel .LL-Card {
+    flex-basis: 40%;
+  }
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" width="40" height="40">
+  <!-- Back wheel -->
+  <circle cx="40" cy="85" r="20" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="40" cy="85" r="16" fill="none" stroke="#333" stroke-width="1"/>
+  
+  <!-- Front wheel -->
+  <circle cx="160" cy="85" r="20" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="160" cy="85" r="16" fill="none" stroke="#333" stroke-width="1"/>
+  
+  <!-- Frame -->
+  <line x1="60" y1="70" x2="140" y2="70" stroke="#333" stroke-width="2"/>
+  <line x1="60" y1="70" x2="40" y2="85" stroke="#333" stroke-width="2"/>
+  <line x1="140" y1="70" x2="160" y2="85" stroke="#333" stroke-width="2"/>
+  
+  <!-- Seat -->
+  <rect x="80" y="60" width="30" height="8" fill="#333" rx="2"/>
+  
+  <!-- Handlebars -->
+  <line x1="140" y1="70" x2="145" y2="55" stroke="#333" stroke-width="2"/>
+  <circle cx="145" cy="55" r="3" fill="#333"/>
+  
+  <!-- Engine -->
+  <rect x="95" y="75" width="15" height="12" fill="#555" stroke="#333" stroke-width="1"/>
+</svg>

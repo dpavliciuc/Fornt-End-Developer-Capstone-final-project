@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "rating": 5,
+    "name": "O. Stanley",
+    "review": "One of the best restaurants in city, good food and ambience.\nDefinitely recommend!",
+    "image": "../../assets/person1.png"
+  },
+  {
+    "id": 2,
+    "rating": 5,
+    "name": "Suze Anna",
+    "review": "I really liked the food! 10/10 I haven’t ate a good Bruschetta in years! And the greek saldad too was delicious! I will be back for sure.",
+    "image": "../../assets/person2.jpg"
+  },
+  {
+    "id": 3,
+    "rating": 5,
+    "name": "Will John",
+    "review": "I had a great time dinning here, the food came in fast and the workers are really nice with people.",
+    "image": "../../assets/profile3.png"
+  },
+  {
+    "id": 4,
+    "rating": 5,
+    "name": "D. Mark",
+    "review": "The restaurant was nice! I really enjoyed their specialty lemon dessert,  I highly recommend!",
+    "image": "../../assets/person4.jpg"
+  }
+]
